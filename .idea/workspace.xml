@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="90307c16-0e07-4f13-91e5-ffc2c3144d8f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1sCsmmcWQJlLAMyTpGA86EsUVtW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\CompilerLab\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\CompilerLab" />
+      <recent name="D:\IdeaProjects\CompilerLab\src\lexical_analysis" />
+      <recent name="D:\IdeaProjects\CompilerLab\src\grammar_analysis" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SemMain">
+    <configuration name="GrammarMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GrammarMain" />
+      <module name="CompilerLab" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SemMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SemMain" />
+      <module name="CompilerLab" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SemMain" />
+        <item itemvalue="Application.GrammarMain" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="90307c16-0e07-4f13-91e5-ffc2c3144d8f" name="Default Changelist" comment="" />
+      <created>1620388066316</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620388066316</updated>
+      <workItem from="1620388068952" duration="14454000" />
+      <workItem from="1620439346433" duration="1872000" />
+      <workItem from="1620445175016" duration="4916000" />
+      <workItem from="1620799341905" duration="6216000" />
+      <workItem from="1620890473760" duration="14000" />
+      <workItem from="1621053222653" duration="3178000" />
+      <workItem from="1621079184343" duration="101000" />
+      <workItem from="1621079289097" duration="431000" />
+      <workItem from="1621231172408" duration="4098000" />
+      <workItem from="1621245760856" duration="4644000" />
+      <workItem from="1621497745471" duration="1955000" />
+      <workItem from="1622551920202" duration="19000" />
+      <workItem from="1625731027639" duration="57000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1621079303386">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1621079303386" />
+    <state width="1493" height="205" key="GridCell.Tab.0.bottom" timestamp="1621499715147">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="205" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1621499715147" />
+    <state width="1493" height="205" key="GridCell.Tab.0.center" timestamp="1621499715147">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="205" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1621499715147" />
+    <state width="1493" height="205" key="GridCell.Tab.0.left" timestamp="1621499715146">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="205" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1621499715146" />
+    <state width="1493" height="205" key="GridCell.Tab.0.right" timestamp="1621499715147">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="205" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1621499715147" />
+    <state width="1493" height="205" key="GridCell.Tab.1.bottom" timestamp="1621499715147">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="205" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1621499715147" />
+    <state width="1493" height="205" key="GridCell.Tab.1.center" timestamp="1621499715147">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="205" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1621499715147" />
+    <state width="1493" height="205" key="GridCell.Tab.1.left" timestamp="1621499715147">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="205" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1621499715147" />
+    <state width="1493" height="205" key="GridCell.Tab.1.right" timestamp="1621499715147">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="205" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1621499715147" />
+    <state x="270" y="59" key="SettingsEditor" timestamp="1621245900131">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="270" y="59" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1621245900131" />
+    <state x="178" y="33" key="new project wizard" timestamp="1620890485886">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="178" y="33" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1620890485886" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1620801508804">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1620801508804" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/CompilerLab$SemMain.ic" NAME="SemMain Coverage Results" MODIFIED="1621232047152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/CompilerLab$Main.ic" NAME="Main Coverage Results" MODIFIED="1620391726332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

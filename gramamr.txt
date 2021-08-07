@@ -1,0 +1,38 @@
+S --> func S | ξ
+func --> type id ( params ) func_body | VOID id ( params ) func_body
+params --> ξ | type id params' | VOID
+params' --> ξ | , type id params'
+func_body --> ; | block
+block --> { def_stmts stmts }
+def_stmts --> def_stmt def_stmts | ξ
+def_stmt --> type id array vars ;
+array --> [ int ] array | ξ
+vars --> , id array vars | ξ
+stmts --> stmt stmts | ξ
+stmt --> E ;
+     --> ;
+     --> block
+     --> RETURN e ;
+     --> CONTINUE ;
+     --> BREAK ;
+     --> IF ( E ) stmt else
+     --> SWITCH ( E ) { cases }
+     --> DO stmt WHILE ( E ) ;
+     --> FOR ( e ; e ; e ) stmt
+     --> WHILE ( E ) stmt
+else --> ELSE stmt | ξ
+cases --> case cases | ξ
+case --> CASE const : stmts | DEFAULT : stmts
+e --> E | ξ
+E --> value comp
+comp --> = value | += value | -= value | *= value | /= value | %= value | < value | <= value | > value | >= value | == value | != value | ξ
+value --> item items
+items --> + item items | - item items | ξ
+item --> factor factors
+factors --> * factor factors | / factor factors | % factor factors | ξ
+factor --> + factor | - factor | ! factor | ++ factor | -- factor | ( E ) | id call | const | id
+call --> array | ( Es )
+Es --> E Es'
+Es' --> , E Es' | ξ
+type --> CHAR | INT | LONG | SHORT | FLOAT | DOUBLE
+const --> int | float | double | char | string

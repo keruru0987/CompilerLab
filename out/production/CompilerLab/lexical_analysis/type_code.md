@@ -1,0 +1,36 @@
+```
+种别码：
+标识符    1       ID
+十六进制  2       16-INT
+八进制    3       8-INT
+十进制    4       INT
+浮点数    5       FLOAT
+字符串常数 6       STRING
+++       7       ADDADD
++=       8       ADDEQUAL
++        9       ADD
+--       10      MINUSMINUS
+-=       11      MINUSEQUAL
+-        12      MINUS
+*=       13      MULEQUAL
+*        14      MUL
+/=       15      DIVEQU
+/        16      DIV
+>=       17      BIGEQU
+>        18      BIG
+<=       19      SMAEQU
+<        20      SMA
+==       21      EQUEQU
+=        22      EQU
+&&       23      ANDAND
+&        24      AND
+||       25      OROR
+|        26      OR
+(        27      LR
+)        28      RR
+{        29      BIGLR
+}        30      BIGRR
+[        31      LS
+]        32      RS
+;        33      SEMIC
+:        34      COLON

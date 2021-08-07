@@ -1,0 +1,60 @@
+S --> func S | ξ
+func --> type id ( params ) func_body | VOID id ( params ) func_body
+params --> type id params' | params --> VOID | ξ
+params' --> , type id params' | ξ
+func_body --> block | ;
+block --> { def_stmts stmts }
+def_stmts --> def_stmt def_stmts | ξ
+def_stmt --> type id M13_2 array M13_4 vars ;
+type --> CHAR M68_2 | INT M69_2 | LONG M70_2
+      | SHORT M71_2 | FLOAT M72_2 | DOUBLE M73_2
+array --> [ int ] M15_4 array M15_6 | M14_1
+vars --> , id M17_3 array M17_5 vars | ξ
+
+stmts --> stmt stmts | ξ
+stmt --> E ;
+      | ;
+      | block
+      | RETURN e ;
+      | CONTINUE ;
+      | BREAK ;
+      | IF ( E ) M26_5 stmt M26_7 else M26_9
+      | SWITCH ( E ) { cases }
+      | DO stmt WHILE ( E ) ;
+      | WHILE ( M38_3 E ) M26_5 stmt M38_7
+      | FOR ( e ; e ; e ) stmt
+else --> ELSE stmt | ξ
+cases --> case cases | ξ
+case --> CASE const : stmts |D EFAULT : stmts
+e --> E | ξ
+
+E --> value M52_2 comp M52_4
+comp --> ξ
+      | = value M78_3
+      | += value M79_3
+      | -= value M80_3
+      | *= value M81_3
+      | /= value M82_3
+      | %= value M83_3
+      | < value  M42_4
+      | <= value M43_4
+      | > value  M44_4
+      | >= value M45_4
+      | == value M46_4
+      | != value M47_4
+value --> item M52_2 items M52_4
+items --> + item M50_3 items M52_4 | - item M51_3 items M52_4 | ξ
+item --> factor M52_2 factors M52_4
+factors --> * factor M54_3 factors M52_4 | / factor M55_3 factors M52_4
+        | % factor M56_3 factors M52_4 | ξ
+factor --> + factor | - factor M84_3 | ! factor M57_3 | ++ factor M58_3 | -- factor M59_3
+        | ( E ) M60_4 | id M61_2 call M61_4 | const M62_2
+call --> M63_1 array M63_3 | ( Es )
+Es --> E Es'
+Es' --> , E Es' | ξ
+const --> int M74_2 | float M74_2 | double M74_2 | char M74_2 | const --> string
+
+
+
+
+
